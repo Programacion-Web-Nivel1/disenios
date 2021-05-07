@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    background: lightsalmon url('imagenes/owl.png') center no-repeat;
+    background-size: 35%;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#redes_sociales li {
+    height: 64px;
+}
+
+#redes_sociales img {
+    width: 50px;
+    margin-top: 7px;
+}
+
+h1 {
+    position: absolute;
+    bottom: 15%;
+    color: white;
+    font-family: 'Itim', cursive;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+footer ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 0px 10px;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}

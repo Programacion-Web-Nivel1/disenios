@@ -1,0 +1,49 @@
+html, body, main {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    border-bottom: 3px solid grey;
+    background: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+header h1 {
+    line-height: 20px;
+}
+
+main {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+main div {
+    width: 80%;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    height: 60%;
+    width: 20%;
+    background: thistle;
+}
+
+section {
+    height: 80%;
+    width: 70%;
+    background: tomato;
+}
